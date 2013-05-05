@@ -53,7 +53,6 @@ if ( isset( $_REQUEST ) && !empty( $_REQUEST ) ) {
   <title>soundagram - send a sound</title>
   <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
   <link rel="stylesheet" href="bootstrap/css/bootstrap-responsive.css">
-  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
     <style type="text/css">
     body{background:#f9f9f9;}
     .wrap {width:50%; margin: 20px auto;}
