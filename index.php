@@ -22,7 +22,7 @@ if ( isset( $_REQUEST ) && !empty( $_REQUEST ) ) {
       $url = $_REQUEST['soundcloudUrl'];
       $to = $_REQUEST['phoneNumber'];
       $message = $_REQUEST['message'];
-      $name = $_REQUEST['name'];
+      
       //create xml with random id, so that we can remove the file
       //when the call disconnects
       $id = rand(17, 124435234);
@@ -51,6 +51,8 @@ if ( isset( $_REQUEST ) && !empty( $_REQUEST ) ) {
 <!DOCTYPE html>
 <head>
   <title>soundagram - send a sound</title>
+  
+  <!-- include bootstrap if you like, but it's not essential -->
   <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
   <link rel="stylesheet" href="bootstrap/css/bootstrap-responsive.css">
     <style type="text/css">
