@@ -5,7 +5,7 @@
 // make sure to install the twilio php library
 require('twilio-twilio-php-c1ad9c4/Services/Twilio.php');
 
-$root_server = '___ENTER_YOUR_ROOT_SEVER_PATH_HERE___';
+$root_server = '___ENTER_YOUR_ROOT_SERVER_PATH_HERE___';
 
 $twilNumber = '___YOUR_TWILIO_PHONE_NUMBER___';
 
